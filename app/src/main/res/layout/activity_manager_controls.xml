@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_manager_controls"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#00B0FF"
+    tools:context="edu.gatech.seclass.tourneymanager.ui.manager.ManagerControlsActivity">
+
+    <TextView
+        android:text="Manager Controls"
+        android:fontFamily="sans-serif"
+        android:textColor="#E1F5FE"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView9"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp">
+
+        <Button
+            android:text="Add Player"
+            android:textStyle="bold"
+            android:textColor="#E1F5FE"
+            android:background="#01579B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:onClick="addPlayer"/>
+
+        <Button
+            android:text="Remove Player"
+            android:textStyle="bold"
+            android:textColor="#E1F5FE"
+            android:background="#01579B"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button10"
+            android:onClick="removePlayer"/>
+
+        <Button
+            android:text="Start Tournament"
+            android:textStyle="bold"
+            android:textColor="#E1F5FE"
+            android:background="#01579B"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6"
+            android:onClick="startTournament"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#01579B"
+            android:onClick="playerTotalsList"
+            android:text="Player Prizes"
+            android:textColor="#E1F5FE"
+            android:textStyle="bold" />
+
+        <Button
+            android:text="House Profits"
+            android:textStyle="bold"
+            android:textColor="#E1F5FE"
+            android:background="#01579B"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button13"
+            android:onClick="houseProfits"/>
+
+        <Button
+            android:id="@+id/matchListButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#01579B"
+            android:onClick="matchList"
+            android:text="Match List"
+            android:textColor="#E1F5FE"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

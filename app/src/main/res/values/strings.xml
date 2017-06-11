@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TourneyManager</string>
+
+    <string name="title_activity_welcome_screen">WelcomeScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_manager_controls">ManagerControls</string>
+    <string name="title_activity_remove_player">RemovePlayer</string>
+    <string name="title_activity_start_tournament">StartTournament</string>
+    <string name="title_activity_review_tournament">reviewTournament</string>
+    <string name="title_activity_player_tourney">PlayerTourneyActivity</string>
+    <string name="title_activity_house_profits">HouseProfitsActivity</string>
+</resources>
