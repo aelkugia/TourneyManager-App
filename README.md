@@ -1,5 +1,3 @@
-#H1
-
-**TourneyManager App**
+# **TourneyManager App**
 
 Created by: Abdu Elkugia, Justin Philips, Prabhakar Kallakuri
